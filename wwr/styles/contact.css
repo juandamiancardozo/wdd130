@@ -84,7 +84,7 @@ nav {
     
 }
 
-.flexbox-container h2 {
+.flexbox-container h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     font-size: xx-large;
