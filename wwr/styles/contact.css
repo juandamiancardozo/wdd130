@@ -27,7 +27,7 @@ font-family: serif;
 }
 body {
     font-family: var(--paragraph-font);
-    max-width: 960px;
+    max-width: 1500px;
     padding: 20px;
 }
 
@@ -71,62 +71,17 @@ nav {
     text-decoration:underline;   
 }
 
-h1 {
-    font-family: var(--heading-font);
-    color: var(--secondary-color);
-    background-color: white;
-    font-size: 60px;
-    position: absolute;   
-}
-
-.hero {
-    /*display: block;*/
-    position: relative;
-    margin: 5px;
-    border: 1px solid black;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    /*height: auto;*/
-    object-fit: cover;   
-}
-
-.hero article {
-    position: absolute;
-    margin: 5px;
-    /*border: 1px solid #0075c4;*/
-    border: 1px solid black;
-    padding: 3%;
-    background-color: #0075c4;
-    /*bottom: 450px;
-    left: 500px;*/
-    bottom: 200px;
-    left: 5px;
-    color: aliceblue;
-    opacity: .7;   
-}
-
-.hero h1 {
-    position: absolute;
-    top: 10px;
-    left: 280px;
-}
-
-.hero article img {
-    width: 150px;
-    height: auto;
-    float: right;
-}
 
 .flexbox-container section {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+    display: flex;   
+    flex-direction:column;
     margin: 5px;
     border: 1px solid black;
+    padding: 50px;
+    padding-bottom: 650px;
+    max-width: 1500px;
+    max-height: 500px;
+    
 }
 
 .flexbox-container h2 {
@@ -134,21 +89,23 @@ h1 {
     color: var(--primary-color);
     font-size: xx-large;
     position: absolute;
-    text-align: center;
+    text-align:center;
     top: 310px;
-    margin-right: 220px;
+    margin-right: 320px;
 }
 
-.flexbox-container p {
-    padding: 40px;
-    /*position: absolute;*/
+.flexbox-container h3 {
+    font-family: var(--heading-font);
 }
+
 
 section {
     display: flex;
     padding: 40px;
     margin: 5px;
     border: 1px solid black;
+    max-width: 1500px;
+    background-color: aquamarine;
 }
 section h2 {
     display: flex;
@@ -157,8 +114,8 @@ section h2 {
     font-size: xx-large;
     position: absolute;
     text-align: center;
-    margin-left: 250px;
-    top: 630px;
+    margin-left: 310px;
+    top: 1050px;
 }
 
 .flexbox-container {
@@ -176,8 +133,8 @@ section h2 {
 }
 
 .flexbox-container img {
-    max-width: 150px;
-    min-height: 100px;
+    max-width: 390px;
+    min-height: 250px;
     flex-direction: row;
     margin-left: 12px;
     margin-top: 50px;
@@ -187,8 +144,76 @@ section h2 {
     background-color: #222;
     color: white;
     text-align: center;
+    max-width: 250px;
 }
 
+            /*FORM*/
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;     
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2) ;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3rem;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+            /*FOOTER*/
 footer {
     display: flex;
     justify-content:center;
