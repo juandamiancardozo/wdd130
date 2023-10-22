@@ -72,42 +72,42 @@ nav {
 }
 
 
-.flexbox-container section {
+.text {
     display: flex;   
     flex-direction:column;
+    align-items: center;
     margin: 5px;
     border: 1px solid black;
     padding: 50px;
     padding-bottom: 650px;
     max-width: 1500px;
-    max-height: 500px;
-    
+    max-height: 500px;    
 }
 
-.flexbox-container h1 {
+.text h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     font-size: xx-large;
     position: absolute;
     text-align:center;
-    top: 310px;
-    margin-right: 320px;
+    top: 290px;
+    left: 490px;
+    
 }
 
-.flexbox-container h3 {
+.text h3 {
     font-family: var(--heading-font);
 }
 
 
-section {
+article {
     display: flex;
     padding: 40px;
     margin: 5px;
     border: 1px solid black;
     max-width: 1500px;
-    background-color: aquamarine;
 }
-section h2 {
+article h2 {
     display: flex;
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -118,21 +118,30 @@ section h2 {
     top: 1050px;
 }
 
-.flexbox-container {
+.flexbox-container-item {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row;
+    flex-wrap: wrap;
 }
 
 
-.flexbox-container figure {
+.flexbox-container-item figure {
     display: flex;
     flex-flow: column;
     align-items: center;
 }
 
-.flexbox-container img {
+.flexbox-item-1 {
+    max-width: 3 90px;
+    min-height: 250px;
+    flex-direction: row;
+    margin-left: 12px;
+    margin-top: 50px;
+}
+
+.flexbox-item-2 {
     max-width: 390px;
     min-height: 250px;
     flex-direction: row;
@@ -140,7 +149,16 @@ section h2 {
     margin-top: 50px;
 }
 
-.flexbox-container figcaption {
+.flexbox-item-3 {
+    max-width: 700px;
+    min-height: 200px;
+    flex-direction: row;
+    margin-left: 12px;
+    margin-top: 50px;
+}
+
+
+.flexbox-container-item figcaption {
     background-color: #222;
     color: white;
     text-align: center;
