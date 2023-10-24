@@ -73,7 +73,6 @@ nav {
 
 
 .hero {
-    /*display: block;*/
     position: relative;
     margin: 5px;
     border: 1px solid black;
@@ -89,12 +88,9 @@ nav {
 .hero article {
     position: absolute;
     margin: 5px;
-    /*border: 1px solid #0075c4;*/
     border: 1px solid black;
     padding: 3%;
     background-color: #0075c4;
-    /*bottom: 450px;
-    left: 500px;*/
     bottom: 200px;
     left: 5px;
     color: aliceblue;
@@ -137,7 +133,6 @@ nav {
 
 .flexbox-container p {
     padding: 40px;
-    /*position: absolute;*/
 }
 
 section {
@@ -146,6 +141,7 @@ section {
     margin: 5px;
     border: 1px solid black;
 }
+
 section h2 {
     display: flex;
     font-family: var(--heading-font);
@@ -218,8 +214,7 @@ footer p {
     padding: 50px;
     padding-bottom: 650px;
     max-width: 1500px;
-    max-height: 500px;
-    
+    max-height: 500px;   
 }
 
 .text h1 {
@@ -229,22 +224,13 @@ footer p {
     position: absolute;
     text-align:center;
     top: 290px;
-    left: 490px;
-    
+    left: 490px;    
 }
 
 .text h3 {
     font-family: var(--heading-font);
 }
 
-
-/*.raftingworkers {
-    display: flex;
-    padding: 40px;
-    margin: 5px;
-    border: 1px solid black;
-    max-width: 1500px;
-}*/
 .raftingworkers h2 {
     display: flex;
     font-family: var(--heading-font);
@@ -267,7 +253,6 @@ footer p {
     border: 1px solid black;
     max-width: 1500px;
 }
-
 
 .flexbox-container-item figure {
     display: flex;
@@ -298,7 +283,6 @@ footer p {
     margin-left: 12px;
     margin-top: 50px;
 }
-
 
 .flexbox-container-item figcaption {
     background-color: #222;
@@ -447,7 +431,6 @@ thead {
     font-size: x-large;
     background-color: #333;
     color: #fff;
-
 }
 
 
@@ -465,15 +448,6 @@ thead {
 }
 
 .container-grid img{
-    max-width: 200px;
-    
+    max-width: 200px;   
 } 
 
-/*.container-grid div {
-    grid-column: 1;
-    grid-row: 1;
-}
-
-.letters {
-    grid-column: 2;
-}*/
